@@ -3,14 +3,14 @@
     "repo": "Fixes2",
     "resources": [
         {
-            "name": "^Fixes2-(.*).7zip$",
+            "name": "^Fixes2-(.*).7z$",
             "platform": "linux",
             "archive": true,
             "includes": ["pawno/include"],
             "plugins": ["plugins/streamer.so"]
         },
         {
-            "name": "^Fixes2-(.*).7zip$",
+            "name": "^Fixes2-(.*).7z$",
             "platform": "windows",
             "archive": true,
             "includes": ["pawno/include"],
