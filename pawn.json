@@ -1,0 +1,23 @@
+{
+    "user": "omcho420",
+    "repo": "Fixes2",
+    "resources": [
+        {
+            "name": "^Fixes2-(.*).zip$",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/streamer.so"]
+        },
+        {
+            "name": "^Fixes2-(.*).zip$",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/streamer.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["omcho420/Fixes2"]
+    }
+}
