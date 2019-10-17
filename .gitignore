@@ -42,3 +42,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 Fixes2.7z
+*.so
+*.inc
+*.dll
